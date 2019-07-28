@@ -1,0 +1,10 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: carsystem
+eureka:
+  client:
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
