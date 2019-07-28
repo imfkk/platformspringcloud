@@ -52,7 +52,7 @@
         </dependency>
 
         <dependency>
-            <artifactId>plateform</artifactId>
+            <artifactId>common</artifactId>
             <groupId>com.kunluntop</groupId>
         </dependency>
     </dependencies>
