@@ -1,3 +1,5 @@
+package com.kunluntop.response;
+
 import java.io.Serializable;
 
 public class Result<T> implements Serializable {

@@ -1,3 +1,5 @@
+package com.kunluntop.response;
+
 public class ResultUtil {
     public static Result success(Object object) {
         Result result = new Result();
