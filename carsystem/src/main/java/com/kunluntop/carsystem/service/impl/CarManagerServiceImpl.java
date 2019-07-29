@@ -4,6 +4,7 @@ import com.kunluntop.carsystem.mapper.TbCarMapper;
 import com.kunluntop.carsystem.pojo.TbCar;
 import com.kunluntop.carsystem.service.CarManagerService;
 import com.kunluntop.response.Result;
+import com.kunluntop.response.ResultUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,8 +16,8 @@ public class CarManagerServiceImpl implements CarManagerService {
 
     @Override
     public Result list() {
-       // tbCarMapper.
-        return null;
+        TbCar car= tbCarMapper.selectByPrimaryKey(10);
+        return ResultUtil.success(car);
     }
 
     @Override
