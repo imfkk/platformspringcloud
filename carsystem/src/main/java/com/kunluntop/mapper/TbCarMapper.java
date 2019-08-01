@@ -1,7 +1,7 @@
-package com.kunluntop.carsystem.mapper;
+package com.kunluntop.mapper;
 
-import com.kunluntop.carsystem.pojo.TbCar;
-import com.kunluntop.carsystem.pojo.TbCarExample;
+import com.kunluntop.pojo.TbCar;
+import com.kunluntop.pojo.TbCarExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

@@ -1,4 +1,4 @@
-package com.kunluntop.carsystem.pojo;
+package com.kunluntop.pojo;
 
 public class TbCar {
     private Integer id;

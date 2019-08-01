@@ -1,4 +1,4 @@
-package com.kunluntop.carsystem;
+package com.kunluntop;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,8 +1,8 @@
-package com.kunluntop.carsystem.service.impl;
+package com.kunluntop.service.impl;
 
-import com.kunluntop.carsystem.mapper.TbCarMapper;
-import com.kunluntop.carsystem.pojo.TbCar;
-import com.kunluntop.carsystem.service.CarManagerService;
+import com.kunluntop.mapper.TbCarMapper;
+import com.kunluntop.pojo.TbCar;
+import com.kunluntop.service.CarManagerService;
 import com.kunluntop.response.Result;
 import com.kunluntop.response.ResultUtil;
 import org.springframework.beans.factory.annotation.Autowired;

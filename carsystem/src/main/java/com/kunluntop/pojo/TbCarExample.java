@@ -1,4 +1,4 @@
-package com.kunluntop.carsystem.pojo;
+package com.kunluntop.pojo;
 
 import java.util.ArrayList;
 import java.util.List;
