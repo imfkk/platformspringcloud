@@ -12,8 +12,9 @@
         <module>carsystem-api</module>
         <module>carsystem</module>
         <module>eureaka</module>
+        <module>dashboard</module>
     </modules>
-    <packaging>pom</packaging>
+    <packaging>war</packaging>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
