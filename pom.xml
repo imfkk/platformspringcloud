@@ -14,7 +14,7 @@
         <module>eureaka</module>
         <module>dashboard</module>
     </modules>
-    <packaging>war</packaging>
+    <packaging>pom</packaging>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
